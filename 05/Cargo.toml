@@ -1,0 +1,11 @@
+[package]
+name = "advent_2021_05"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.5"
+
+[[bin]]
+name = "advent"
+path = "main.rs"
